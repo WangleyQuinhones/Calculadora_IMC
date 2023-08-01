@@ -103,3 +103,33 @@ body{
     border-top: 1px solid #ffffff34;
     padding: 0.75rem 0;
 }
+#bmi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+#bmi span:last-child{
+    font: size 0.875rem;
+    color: #cbd5e1;
+}
+#description{
+    width: 15.5rem;
+}
+#more_info{
+    border-top: 1px solid #ffffff34;
+    padding-top: 1.5rem;
+}
+#more_info a{
+    text-decoration:none;
+    font-size: 0.875rem;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #DE63FF;
+    transition:color 0.5s;
+}
+#more_info a:hover{
+    color: #cbd5e1;
+}
