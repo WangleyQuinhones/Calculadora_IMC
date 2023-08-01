@@ -36,3 +36,70 @@ body{
     flex-direction: column;
     gap: 2rem;
 }
+#title{
+    font-size: 2.25rem;
+    position: relative;
+}
+#title::after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    background-color: #DE63FF;
+    left:0;
+    border-radius: 3px;
+    width: 8rem;
+    height:3px;
+
+}
+.input-box label{
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    font-weight: 500;
+}
+.input-field{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border: 3px;
+    margin-top: 3px;
+}
+.input-field spam,
+.input-field i{
+    color: #cbd5e1;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+}
+.input-field input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5;
+}
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+    appearance: none;
+}
+.input-field input:focus{
+    outline:none;
+}
+#calculate{
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: #f8fafc;
+    background-color: #DE63FF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: none;
+}
+#result{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ffffff34;
+    padding: 0.75rem 0;
+}
