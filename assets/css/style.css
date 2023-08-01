@@ -65,7 +65,7 @@ body{
     border: 3px;
     margin-top: 3px;
 }
-.input-field spam,
+.input-field span,
 .input-field i{
     color: #cbd5e1;
     font-size: 1.3rem;
@@ -119,6 +119,7 @@ body{
 #more_info{
     border-top: 1px solid #ffffff34;
     padding-top: 1.5rem;
+    text-align: center;
 }
 #more_info a{
     text-decoration:none;
@@ -135,4 +136,11 @@ body{
 }
 .hidden{
     display: none;
+}
+
+.normal{
+    color: #DE63FF;
+}
+.attention{
+    color: red;
 }
